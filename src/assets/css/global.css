@@ -1,0 +1,76 @@
+:root {
+    --dark: #2c2a2a;
+    --purple: #7e459b;
+    --white: #ffffff;
+}
+  
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+/* HARD RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Protest Riot", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  body {
+    background-color: var(--dark);
+  }
+
+  h3 {
+    color: #ffffff;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  p {
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .box-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .box{
+      width: 40%;
+      height: 120px;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border-radius: 10px;
+      border-style: double;
+      padding: 20px 75px;
+      border: 20px 20px;
+      margin: 60px 0;
+      color: var(--white);
+  }
+
+  footer {
+    width: 100%;
+    padding: 40px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--white);
+}
+
+footer h4 { font-size: 1.2rem;}

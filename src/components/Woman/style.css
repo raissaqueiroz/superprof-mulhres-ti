@@ -1,0 +1,24 @@
+.women figure img{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.women figure figcaption {
+    color: var(--white);
+    text-align: center;
+    font-size: 1rem;
+}
+
+figure {
+    width: 15%;
+    padding: 2%
+}
+
+.women {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
